@@ -132,13 +132,14 @@ html{
      
    
     font-size: 20px;
-    color: #031832;
+    color: #76b0f7;
     
     padding: 8px;
-    background-color: #fafafa;
+    background-color: transparent;
     border-radius: 5px;
     display: grid;
     justify-content: center;
+    align-items: center;
    
 
 

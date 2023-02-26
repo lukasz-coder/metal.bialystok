@@ -1,5 +1,3 @@
-const d= new Date();
-document.getElementById('zegar').innerHTML = d.toUTCString();
 
 
 const rowSelect = document.getElementById('row-select');

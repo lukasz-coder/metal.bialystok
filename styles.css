@@ -1,0 +1,184 @@
+*{
+     
+     margin: 0;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+     box-sizing:border-box;
+     width: auto;
+     height: auto;
+     
+     
+     
+}
+
+h1{
+     text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+     height: 120px;
+     width: 120px;
+     animation: rotate 10s linear  infinite;
+
+}
+.pic_metal{
+     
+     display: flex;
+     justify-content: center;
+     
+     
+}
+#zegar{
+     display: flex;
+     justify-content: center;
+}
+
+
+body{
+     padding-top: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+     height: auto;
+}
+html{
+     padding: 0;
+     margin: 0;
+    height: 100vh;
+     background: linear-gradient(to right top, yellow, blue);
+
+}
+
+
+.calculate{
+     padding: 10px;
+     margin: 10px;
+    
+}
+
+
+.container{
+    
+     padding: 5px;
+     background: linear-gradient(to right top, rgba(20, 1, 1, 0.75), rgba(0, 0, 0, 0.25));
+     overflow: hidden;
+     border-radius: 20px;
+    /* position: relative;/*umiejscowienie wzgledne */
+     top: 10px;
+     backdrop-filter: blur(8px);
+     height: 67vh;
+     
+     display: flex;
+     align-items: center;
+           
+}
+
+.buttons{
+     border: 10px;
+     margin: 10px;
+     padding-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+       
+ }
+.button_select{
+  border-radius: 25px;
+  font-size: 20px;
+  background: linear-gradient(to right,  rgb(248, 249, 246), rgb(98, 3, 3));
+  width: 200px;
+  backdrop-filter: blur(8px);
+  padding: 5px;
+  border: solid;
+}
+
+
+
+#result{
+     height: auto;
+     width: auto;
+     background-color: #134993;
+     text-align: center;
+     margin-top: 35px;
+     margin-bottom: 10px;
+     cursor: pointer;
+     color: #FFFFFF;
+     padding: 20px;
+     font-size: 1.50em;
+     border-radius: 25px;
+}
+.input_value{
+     font-style: arial;
+     font-size: 20px;
+
+}
+
+.contact{
+     background-color: #bccf0f; 
+     text-align: center; 
+     margin-top: 5px;
+      margin-bottom: 30px;
+       cursor: pointer; 
+       color: #FFFFFF; 
+       padding: 20px; 
+       font-size: 1.50em;
+       border-radius: 25px;
+}
+.select{
+     font-family: "Titillium Web", "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    color: #031832;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+
+
+}
+#select {
+     height: 2.3rem;
+     padding: 0.48544rem;
+     border: 1px solid #cacaca;
+     margin: 0 0 0.97087rem;
+     font-size: 0.97087rem;
+     font-family: inherit;
+     line-height: normal;
+     color: #051b38;
+     background-color: #fafafa;
+     border-radius: 0;
+     
+}
+
+input[type="range"] {
+
+     display: block;
+     width: 60%;
+     height: auto;
+     cursor: pointer;
+     margin-top: 0.45rem;
+     margin-bottom: 0.45rem;
+     border-radius: 25px;
+     line-height: 1;
+}
+
+  
+
+.copyrights{
+     display: flex;
+     align-items: center;
+     
+
+}
+table{
+     display: none;
+}
+
+@keyframes rotate{
+    rotateX{transform: rotateX(0) ;}
+    to{transform: rotateX(100);}
+}
+

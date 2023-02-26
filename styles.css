@@ -67,7 +67,7 @@ html{
     /* position: relative;/*umiejscowienie wzgledne */
      top: 10px;
      backdrop-filter: blur(8px);
-     height: 67vh;
+     height: min-content;
      width: min-content;
 
      display: flex;
@@ -79,7 +79,7 @@ html{
 
 
 
-.buttons{
+.buttons_crane{
      border: 10px;
      margin: 10px;
      padding-bottom: 15px;
@@ -93,7 +93,7 @@ html{
   border-radius: 25px;
   font-size: 20px;
   background: linear-gradient(to right,  rgb(248, 249, 246), rgb(98, 3, 3));
-  width: 200px;
+  width: 160px;
   backdrop-filter: blur(8px);
   padding: 5px;
   border: solid;
@@ -135,7 +135,7 @@ html{
      
     line-height: 2;
     font-size: 20px;
-    color: #76b0f7;
+    
     
     padding: 8px;
     background-color: transparent;
@@ -151,7 +151,8 @@ html{
 
 .select{
      font-family: Arial, Helvetica, sans-serif;
-     font-size: xx-large;
+     font-size: 30px;
+     color: #76b0f7;
 }
 
 #row-select{

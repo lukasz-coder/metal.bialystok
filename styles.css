@@ -130,21 +130,24 @@ html{
 }
 .select{
      
-    font-weight: normal;
-    font-style: normal;
+   
     font-size: 20px;
     color: #031832;
-    text-rendering: optimizeLegibility;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    line-height: 1.4;
-    font-family: inherit;
-    padding: 0.1rem;
+    
+    padding: 8px;
     background-color: #fafafa;
     border-radius: 5px;
+    display: grid;
+    justify-content: center;
    
 
 
+}
+#row-select{
+     height: 25px;
+}
+#column-select{
+     height: 25px;
 }
 
 

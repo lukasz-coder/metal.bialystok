@@ -74,6 +74,8 @@ html{
            
 }
 
+
+
 .buttons{
      border: 10px;
      margin: 10px;
@@ -127,31 +129,24 @@ html{
        border-radius: 25px;
 }
 .select{
-     font-family: "Titillium Web", "Helvetica Neue", sans-serif;
+     
     font-weight: normal;
     font-style: normal;
-    font-size: 30px;
+    font-size: 20px;
     color: #031832;
     text-rendering: optimizeLegibility;
     margin-top: 0;
     margin-bottom: 0.5rem;
     line-height: 1.4;
+    font-family: inherit;
+    padding: 0.1rem;
+    background-color: #fafafa;
+    border-radius: 5px;
+   
 
 
 }
-#select {
-     height: 2.3rem;
-     padding: 0.48544rem;
-     border: 1px solid #cacaca;
-     margin: 0 0 0.97087rem;
-     font-size: 0.97087rem;
-     font-family: inherit;
-     line-height: normal;
-     color: #051b38;
-     background-color: #fafafa;
-     border-radius: 0;
-     
-}
+
 
 input[type="range"] {
 

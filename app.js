@@ -13,12 +13,13 @@ function searchTable() {
   const cell = table.rows[row].cells[col];
   const value = cell.innerHTML;
   
-  resultDiv.innerHTML = `Żuraw min : ${value}`;
+  resultDiv.innerHTML = `Żuraw min: ${value}`;
   resultDiv.style.display = ''; // wyświetl wynik
 }
 
 // reakcja na zmianę wyboru wiersza lub kolumny
 rowSelect.addEventListener('change', searchTable);
 columnSelect.addEventListener('change', searchTable);
+
 
 

@@ -16,21 +16,21 @@ h1{
       font-family: Arial, Helvetica, sans-serif;
 }
 #logo{
-     height: 120px;
+     height: 100px;
      width: 120px;
-     animation: rotate 10s linear  infinite;
+     border-radius: 25px;
+   
+
+
+  
 
 }
-.pic_metal{
+#pic_metal{
      
      display: flex;
      justify-content: center;
      
      
-}
-#zegar{
-     display: flex;
-     justify-content: center;
 }
 
 
@@ -58,23 +58,41 @@ html{
 }
 
 
-.container{
+.container1{
     
      padding: 5px;
-     background: linear-gradient(to right top, rgba(20, 1, 1, 0.75), rgba(0, 0, 0, 0.25));
+     background: transparent;
      overflow: hidden;
      border-radius: 20px;
     /* position: relative;/*umiejscowienie wzgledne */
      top: 10px;
-     backdrop-filter: blur(8px);
+     backdrop-filter: blur(10px);
      height: min-content;
      width: min-content;
+    
 
      display: flex;
      align-items: center;
      justify-content: center;
      
            
+}
+.page1{
+     padding: 5px;
+     background: linear-gradient(to right top, rgba(20, 1, 1, 0.75), rgba(0, 0, 0, 0.25));
+     overflow: hidden;
+     border-radius: 20px;
+    /* position: relative;/*umiejscowienie wzgledne */
+     top: 10px;
+     backdrop-filter: blur(10px);
+     height: min-content;
+     width: min-content;
+     box-shadow: 10px 5px 10px 5px rgb(2, 1, 72);
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
 }
 
 
@@ -92,11 +110,13 @@ html{
 .button_select{
   border-radius: 25px;
   font-size: 20px;
-  background: linear-gradient(to right,  rgb(248, 249, 246), rgb(98, 3, 3));
+  background: linear-gradient(to right,  rgb(249, 194, 194), rgb(98, 3, 3));
   width: 160px;
   backdrop-filter: blur(8px);
   padding: 5px;
-  border: solid;
+  
+  border: none;
+  box-shadow:2px 2px 2px 2px rgb(31, 0, 0);
 }
 
 
@@ -113,10 +133,13 @@ html{
      padding: 20px;
      font-size: 1.50em;
      border-radius: 25px;
+     box-shadow: 2px 2px 2px 2px rgb(7 7 76);
+     backdrop-filter: blur(10px);
 }
 .input_value{
      font-style: arial;
      font-size: 20px;
+   
 
 }
 
@@ -130,6 +153,8 @@ html{
        padding: 20px; 
        font-size: 1.50em;
        border-radius: 25px;
+       box-shadow: 2px 2px 2px 2px  rgb(69, 95, 2);
+       
 }
 .select_buttons{
      
@@ -137,7 +162,7 @@ html{
     font-size: 20px;
     
     
-    padding: 8px;
+    padding: 5px;
     background-color: transparent;
     border-radius: 5px;
     display: flex;
@@ -151,19 +176,31 @@ html{
 
 .select{
      font-family: Arial, Helvetica, sans-serif;
-     font-size: 30px;
+     font-size: 25px;
      color: #76b0f7;
 }
 
 #row-select{
-     height: 25px;
+     height: 30px;
      border-radius: 5px;
      justify-self: center;
+     background-color:transparent;
+    
+     font-size: 20px;
+     text-transform: uppercase;
+     
 }
 #column-select{
-     height: 25px;
+     height: 30px;
      border-radius: 5px;
      justify-self: center;
+     background-color:transparent;
+    
+     font-size: 20px;
+     text-transform: uppercase;
+
+
+     
 }
 
 /*tego nie ma w html*/
@@ -191,8 +228,62 @@ table{
      display: none;
 }
 
-@keyframes rotate{
-    rotateX{transform: rotateX(0) ;}
-    to{transform: rotateX(100);}
-}
+#imege-slider {
+     width: 468px;
+     height: 420px;
+     
+   }
+   /*tego juz nie ma 
+   #slider #top-row {
+     width: 868px;
+     height: 620px;
+     overflow: hidden;
+   }
+   
+   #slider #top-row {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   #slider .slide {
+     display: none;
+     width: 100%;
+     flex: 1;
+   }
+   
+   #slider .slide.active {
+     display: block;
+   }
+   
+   #slider #bottom-row {
+     display: flex;
+     justify-content: center;
+   }
+   
+   #dots {
+     margin-top: 10px;
+     display: inline-flex;
+     padding: 5px 10px;
+     padding-right: 0;
+     border-radius: 2px;
+   }
+   
+   #dots .dot {
+     width: 12px;
+     height: 12px;
+     background-color: #3a3a3a;
+     display: inline-block;
+     border-radius: 100%;
+     margin-right: 10px;
+   }
+   
+   .arrow {
+     margin: 0 5px;
+   }
+   
+   .arrow,
+   .dot {
+     cursor: pointer;
+   }*/
 

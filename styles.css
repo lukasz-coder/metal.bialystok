@@ -188,16 +188,18 @@ html{
     
      font-size: 20px;
      text-transform: uppercase;
+     color: #76b0f7;
      
 }
 #column-select{
      height: 30px;
      border-radius: 5px;
      justify-self: center;
-     background-color:transparent;
+     background-color: transparent;
     
      font-size: 20px;
      text-transform: uppercase;
+     color:#76b0f7
 
 
      

@@ -176,8 +176,9 @@ html{
 
 .select{
      font-family: Arial, Helvetica, sans-serif;
-     font-size: 25px;
-     color: #76b0f7;
+     font-size: 30px;
+     
+     color: #00060d;
 }
 
 #row-select{
@@ -188,7 +189,8 @@ html{
     
      font-size: 20px;
      text-transform: uppercase;
-     color: #76b0f7;
+     color: #000205;
+     border: solid;
      
 }
 #column-select{
@@ -199,10 +201,14 @@ html{
     
      font-size: 20px;
      text-transform: uppercase;
-     color:#76b0f7
+     color:#00050a;
+     border: solid;
 
 
      
+}
+option{
+     color:black;
 }
 
 /*tego nie ma w html*/
